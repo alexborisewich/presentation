@@ -1,8 +1,8 @@
 import Reveal from 'reveal.js';
-import Markdown from 'reveal.js/plugin/markdown/markdown.esm';
+import hljs from 'reveal.js/plugin/highlight/highlight';
 import './style.css';
 
 const deck = new Reveal({
-  plugins: [Markdown],
+  plugins: [hljs],
 });
 deck.initialize();
